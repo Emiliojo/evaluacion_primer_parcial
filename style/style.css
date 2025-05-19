@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+/*
+
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+*/
+
+h1{
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 10;
+}
+
+
+#menu{
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+body{
+    background: url("../Pictures/Fondo.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+
+}
+
+/* Contenedor del sitio */
+#wrapper{
+    width: 1280px;
+    margin: 50px auto;
+}
+
+/* Encabezado del sitio */
+#header{
+    width: 1280px;
+    height: 200px;
+    position: relative;
+    float: left;
+    background: url("../Pictures/Header\ Image.jpg")no-repeat
+    
+}
+
+#logo{
+    width: 1280px;
+    position: relative;
+    float: left;
+    padding: 11px 30px;
+}
+
+#menu{
+    width: 2000px;
+    position: relative;
+    float: left;
+    display: grid;
+    justify-items: center;
+    margin-top: -158px;
+    margin-left: -408px;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 100px 300px;
+    
+}
+
+#menu ul li{
+    float: left;
+    
+    
+}
+
+#menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 15.5px 37px;
+    padding-left: 37px;
+    color: rgb(255, 255, 255);
+    background: rgb(90, 27, 5);
+}
+
+#menu ul li a:hover{
+    color: black;
+    background-color: #ffffff;
+
+}
+
+ /* Contendio del sitio */
+#body{
+    width: 1260px;
+    position: relative;
+    float: left;
+    background: rgb(204, 184, 184, 0.9);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+#inti{
+    width: 1260px;
+    position: relative;
+    float: left;
+    padding: 20px 60px;
+}
+
+
+#diablada{
+    width: 1260px;
+    position: relative;
+    float: left;
+    padding: 20px 60px;
+}
+
+#diablada01{
+    width: 1260px;
+    position: relative;
+    float: left;
+    margin: -268px 450px;
+    padding: 20px 60px;
+}
+
+#body iframe{
+    width: 560px;
+    height: 224px;
+    position: relative;
+    float: left;
+    margin: -268px 450px;
+    padding: 20px 60px;
+}
+
+#body h1{
+    width: 1260px;
+    position: relative;
+    float: left;
+    margin-left: 60px;
+    padding-top: 50px;
+}
+
+#body p{
+    width: 1260px;
+    position: relative;
+    float: left;
+    margin-left: 60px;
+    padding-top: -50px;
+
+}
+
+#body h2{
+    width: 1260px;
+    position: relative;
+    float: left;
+    margin-left: 60px;
+    padding-top: 50px;
+}
+
+/* Pie de pagina */
+#footer{
+    width: 1260px;
+    height: 80px;
+    position: relative;
+    float: left;
+    background: rgb(0,0,0);
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#footer h6{
+    width: 1260px;
+    height: 80px;
+    position: relative;
+    float: left;
+    padding: 10px;
+    padding-left: 60px;
+    margin-top: 1px;
+   
+
+}
